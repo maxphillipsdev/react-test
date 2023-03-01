@@ -1,0 +1,20 @@
+{
+  "name": "react-test",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "serve",
+    "build": "esbuild src/index.jsx --bundle --outdir=dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.17.10",
+    "serve": "^14.2.0"
+  },
+  "dependencies": {
+    "is-odd": "^3.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
